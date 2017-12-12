@@ -35,5 +35,3 @@ test: ## test entire project
 
 install-dev-deps:
 	go get -v $(DEV_DEPS)
-
-dev-setup: install-dev-deps check ## Initial set up for dev environment
